@@ -13,11 +13,11 @@ import java.util.Map;
 import org.json.JSONObject;
 
 public class HttpConnectorHelper {
-	private static final String USER_AGENT = "Mozilla/5.0";
+	private  final String USER_AGENT = "Mozilla/5.0";
 
-	private static final String GET_URL = "https://localhost:9090/SpringMVCExample";
+	private  final String GET_URL = "https://localhost:9090/SpringMVCExample";
 
-	private static final String POST_URL = "http://168.61.22.57:6380/createuser";
+	private  final String POST_URL = "http://168.61.22.57:6380/createuser";
 
 	
 	public static void main(String[] args) throws IOException {
